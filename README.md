@@ -16,18 +16,12 @@ End the program
 ## Program:
 ```
 #Program to find the rank of a matrix.
-
-#Developed by: Keerthika N
-
-#RegisterNumber: 21000385
-
+#Developed by:Divya E 
+#RegisterNumber:23011187
 import numpy as np
-
 A = np.array([[3,2,5],[1,1,2],[3,3,6]])
-
-values=np.linalg.matrix_rank(A)
-
-print(values)
+rank = np.linalg.matrix_rank(A)
+print(rank)
 ```
 ## Output:
 ![OUTPUT](https://github.com/DHIVYA050430/RANK-OF-A-MATRIX/assets/147141546/68743d00-9cc5-4dcd-814d-5e1c5d5e4c4d)
